@@ -77,7 +77,7 @@ namespace DisconnectedEnvironment
 
         }
 
-        private void cbxTahunMasuk_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbxTahunMasuk_SelectedIndex(object sender, EventArgs e)
         {
 
         }
@@ -186,6 +186,11 @@ namespace DisconnectedEnvironment
             Form1 fm = new Form1();
             fm.Show();
             this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
